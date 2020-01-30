@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <section id="calc">
+      <h2 class="title">My Calculator</h2>
+      <div class="container">
+        <div class="content-row">
+          <div class="entering-space" id="entering-space">0</div>
+          <div class="result-space" id="result-space">0</div>
+        </div>
+        <div class="row row-one">
+          <button class="btn functional-btn" id="clear-all-btn">
+            <!-- you dont always know what classes you will be needing-->
+            C.all
+          </button>
+          <button class="btn functional-btn" id="clear-btn">C</button>
+          <button class="btn functional-btn">C</button>
+          <button class="btn functional-btn operation-btn">/</button>
+        </div>
+
+        <div class="row row-two">
+          <button class="btn number-btn">7</button>
+          <button class="btn number-btn">8</button>
+          <button class="btn number-btn">9</button>
+          <button class="btn functional-btn operation-btn">x</button>
+        </div>
+        <div class="row row-three">
+          <button class="btn number-btn">4</button>
+          <button class="btn number-btn">5</button>
+          <button class="btn number-btn">6</button>
+          <button class="btn functional-btn operation-btn">-</button>
+        </div>
+
+        <div class="row row-four">
+          <button class="btn number-btn">1</button>
+          <button class="btn number-btn">2</button>
+          <button class="btn number-btn">3</button>
+          <button class="btn functional-btn operation-btn">+</button>
+        </div>
+
+        <div class="row row-five">
+          <button class="btn number-btn zero-btn">0</button>
+          <button class="btn number-btn dot-btn">.</button>
+          <button class="btn functional-btn" id="equal-to-btn">=</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

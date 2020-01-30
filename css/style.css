@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#calc {
+  width: 100%;
+}
+
+#calc .title {
+  text-align: center;
+  margin-top: 30px;
+  font-family: cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  color: blue;
+}
+
+#calc .container {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  background-color: rgb(126, 84, 30);
+  padding: 50px 20px;
+  border: 3px solid rgb(53, 32, 4);
+  border-radius: 20px;
+}
+
+#calc .row {
+  margin: 0 auto;
+}
+
+#calc .btn {
+  width: 80px;
+  height: 60px;
+  margin: 5px auto;
+  border-radius: 8px;
+  font-size: large;
+  font-weight: 500;
+}
+
+#calc .content-row {
+  width: 330px;
+  margin: 5px auto;
+  border: 2px solid #ffffff;
+  height: 80px;
+  border-radius: 8px;
+  position: relative;
+}
+
+#calc .number-btn {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #cec9c9;
+}
+
+#calc .zero-btn {
+  width: 160px;
+  width: 160px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+#calc .dot-btn {
+  height: 60px;
+  font-weight: 900;
+  border-radius: 8px;
+}
+
+#calc .functional-btn {
+  background-color: burlywood;
+  color: rgb(126, 84, 30);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#calc .entering-space {
+  font-size: 30px;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#calc .result-space {
+  font-size: 30px;
+  padding: 5px;
+  position: absolute;
+  padding-bottom: 0;
+  bottom: 0;
+  right: 0;
+}
